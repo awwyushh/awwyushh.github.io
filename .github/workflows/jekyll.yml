@@ -5,32 +5,29 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repo
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Setup Ruby
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'   # match your local version if possible
+          ruby-version: '3.3'
           bundler-cache: true
 
-      # Install dependencies
       - name: Install dependencies
-        run: |
-          bundle install
+        run: bundle install
 
-      # Build Jekyll
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --trace
 
-      # Deploy to GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
