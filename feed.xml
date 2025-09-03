@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-09-03T07:58:01+00:00</updated><id>/feed.xml</id><title type="html">Ayush Shukla</title><subtitle>I like building things that actually work and writing about how they work under the hood. My focus is systems-level thinking, algorithms, and the math that makes everything click. This site is where I drop writeups, experiments, and technical notes—sometimes neat, sometimes messy, always honest.</subtitle><entry><title type="html">MathJax Demo</title><link href="/2025/09/03/number-theory.html" rel="alternate" type="text/html" title="MathJax Demo" /><published>2025-09-03T00:00:00+00:00</published><updated>2025-09-03T00:00:00+00:00</updated><id>/2025/09/03/number-theory</id><content type="html" xml:base="/2025/09/03/number-theory.html"><![CDATA[<p>This post demonstrates how to use <strong>MathJax</strong> with Jekyll Minima.</p>
+
+<h3 id="inline-math">Inline math</h3>
+<p>You can write inline math like this: $E = mc^2$ or equivalently (\frac{a}{b}).</p>
+
+<h3 id="display-math">Display math</h3>
+<p>And block equations like this:</p>
+
+\[\int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}\]
+
+<p>Or using <code class="language-plaintext highlighter-rouge">\[ ... \]</code> syntax:</p>
+
+\[\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}\]]]></content><author><name></name></author><summary type="html"><![CDATA[This post demonstrates how to use MathJax with Jekyll Minima.]]></summary></entry><entry><title type="html">AsciiDoc Demo</title><link href="/2025/09/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="AsciiDoc Demo" /><published>2025-09-03T00:00:00+00:00</published><updated>2025-09-03T00:00:00+00:00</updated><id>/2025/09/03/welcome-to-jekyll</id><content type="html" xml:base="/2025/09/03/welcome-to-jekyll.html"><![CDATA[<div class="sect1">
+<h2 id="asciidoc-demo">AsciiDoc Demo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This post is written in <strong>AsciiDoc</strong>! 🎉</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="inline-math">Inline math</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can write inline math like this: \(E = mc^2\).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="block-math">Block math</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>And block equations like this:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}\]
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>This is a note block.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[AsciiDoc Demo]]></summary></entry></feed>
