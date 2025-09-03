@@ -1,0 +1,30 @@
+---
+layout: post
+title: "AsciiDoc Demo"
+date: 2025-09-03
+math: true
+---
+
+:stem: latexmath
+
+== AsciiDoc Demo
+:icons: font
+:stem: latexmath
+
+This post is written in *AsciiDoc*! 🎉
+
+== Inline math
+You can write inline math like this: latexmath:[E = mc^2].
+
+== Block math
+And block equations like this:
+
+[stem]
+++++
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+++++
+
+[NOTE]
+====
+This is a note block.
+====

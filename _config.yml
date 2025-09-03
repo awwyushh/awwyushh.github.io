@@ -31,6 +31,15 @@ github_username:  awwyushh
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-asciidoc
+
+asciidoc:
+  processor: asciidoctor
+  require_front_matter_header: true
+
+sass:
+  style: compressed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
