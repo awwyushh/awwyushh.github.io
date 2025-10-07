@@ -2,7 +2,7 @@
 author: Ayush Shukla
 pubDatetime: 2025-10-08T00:50:32Z
 title: What I Learned About Observability with Prometheus and Grafana
-slug: what-i-learned-about-observability-with-prometheus-and-grafana
+slug: what-i-learned-about-observability
 featured: true 
 draft: false
 tags:
