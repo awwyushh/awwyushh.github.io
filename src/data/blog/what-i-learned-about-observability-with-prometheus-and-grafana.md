@@ -5,7 +5,9 @@ title: What I Learned About Observability with Prometheus and Grafana
 slug: what-i-learned-about-observability-with-prometheus-and-grafana
 featured: true 
 draft: false
-description: My Observability journey
+tags:
+    - release
+description: "My Observability journey"
 --- 
 
 ## Table of contents
